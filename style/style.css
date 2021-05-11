@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.container-1{
+    width: 1440px;
+    height: 900px;
+    /* background-color: royalblue; */
+}
+.container-1 nav{
+    width: 100%;
+    display: flex;
+}
+.container-1 .crypto{
+    position: absolute;
+    width: 119px;
+    height: 33px;
+    left: 120px;
+    top: 23px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #333333;
+/* identical to box height */
+}
+.container-1 ul{
+    position: relative;
+    width: 387px;
+    top: 32px;
+    left: 461px;
+
+}
+.container-1 ul li{
+    position: static;
+    display: inline-block; 
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 44px;
+    /* identical to box height */
+    color: #666666;
+}
+.container-1 ul li:first-child{
+    position: relative;
+    margin-left: 0;
+}
+.container-1 div ul li:first-child{
+    position: relative;
+    left:262px;
+}
+.container-1 div ul li:nth-child(2){
+    position: relative;
+    left: 220px;
+    top: 3px;
+    font-size: 22px;
+}
+.container-1 div ul li:last-child img{
+    position: relative;
+    width: 10px;
+    height: 8px;
+    left: 180px;
+}
+.container-1 .button{
+    position: absolute;
+    left: 1250px;
+    top: 22px;
+}
+.container-1 .button button{
+    padding: 12px 32px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #333333;
+    font-weight: 600;
+    border: 2px solid gray;
+    border-radius: 3px;
+    background-color: #ffffff;
+}
+
+.container-1 .img img{
+    position: absolute;
+    width: 605px;
+    height: 650px;
+    left: 157px;
+    top: 171px;
+}
+.container-1 .img .back-img{
+    position: absolute;
+    width: 644px;
+    height: 492px;
+    left: 120px;
+    top: 330px;
+    z-index: -1;
+    background: linear-gradient(-3deg, #e7e4e4 6.5%, rgba(42, 200, 231, 0) 100%);
+}
+.container-1 .rectangle{
+    position: absolute;
+    display: flex;
+    width: 289.76px;
+    height: 81px;
+    left: 69px;
+    top: 589px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(24.6607px);
+}
+.container-1 .bitcoin{
+    width: 90px;
+}
+.container-1 .bitcoin h6{
+    position: relative;
+    top: 18px;
+    font-size: 14px;
+    font-family: Open Sans;
+    color: #312E52;
+}
+.container-1 .bitcoin h4{
+    position: relative;
+    top: 22px;
+    font-size: 18px;
+    font-family: Open Sans;
+    color: #312E52;
+}
+.container-1 .rectangle .vector img{
+    position: relative;
+    width: 90px;
+    top: 15px;
+    margin-left: 10px;
+}
+.container-1 .scidka {
+    width: 90px;
+}
+.container-1 .scidka div{
+    position: relative;
+    width: 55px;
+    height: 30px;
+    left: 25px;
+    top: 25px;
+    background: rgba(170, 65, 51, 0.2);
+    border-radius: 5.59642px;
+    text-align: center;
+    color: red;
+    line-height: 32px;
+}
+
+.container-1 .text{
+    position: absolute;
+    width: 444.98px;
+    height: 364px;
+    left: 849px;
+    top: 211px;    
+}
+.container-1 .text h1{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 140%;
+    color: #333333;
+}
+.container-1 .text p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 32px;
+    line-height: 150%;
+    color: #666666;
+}
+.container-1 .text button{
+    position: absolute;
+    top: 358px;
+    background: linear-gradient(0deg, #2A2740, #2A2740);
+    border-radius: 8px;
+    color: #ffffff;
+    padding: 16px 40px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+
+
+.container-2{
+    /* position: absolute; */
+    width: 1440px;
+    height: 360px;
+    background-color: #ffffff;
+}
+.container-2 div{
+    width: 233px;
+    height: 60px;
+    display: flex;
+    margin: 40px auto;
+}
+.container-2 div > div{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 150%;
+    color: #e099e9;
+}
+.container-2 div ~ div{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 150%;
+    color: #383838;
+    margin-left: 5px;
+}
+.container-2 ul{
+    display: flex;
+    margin:  120px 70px;
+    
+}
+.container-2 ul li{
+    margin-left: 50px;
+}
+
+
+
+.container-3{
+    position: absolute;
+    width: 1440px;
+    height: 529px;
+    background-color: #ffffff;
+}
+.container-3 div img:first-child{
+    position: absolute;
+    margin-left: 289px;
+    margin-top: 100px;
+}
+.container-3 div img:last-child{
+    position: absolute;
+    margin-left: 120px ;
+    margin-top: 100px ;
+}
+.container-3  p{
+    position: absolute;
+    margin-left: 752px;
+    margin-top: 95px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: .5px;
+    color: #666666;
+}
+.container-3 .box{
+    display: flex;
+    width: 1200px;
+    height: 80px;
+    margin: 301px auto;
+    top:   330px;
+    /* align-content: space-between; */
+}
+.container-3 .fon{
+    display: flex;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #e6dafd;
+}
+.container-3 .fon:nth-child(2){
+    margin-left: 460px;
+}
+.container-3 .fon:nth-child(3){
+    margin-left: 920px;
+}
+.container-3 .box .fon img:nth-child(1){
+    transform: translate(-105px, -85px);
+    
+}
+.container-3 .box .fon:last-child i{
+    color: #9465F6;
+    font-size: 28px;
+    line-height: 64px;
+    margin-left: 16px;
+}
+
+
+
+
+.container-4{
+    /* position: absolute; */
+    width: 1440px;
+    height: 691px;
+    background-color: #41e171;
+}
+.container-5{
+    width: 1440px;
+    height: 998px;
+    background-color: royalblue;
+}
+.container-6{
+    width: 1440px;
+    height: 800px;
+    background-color: #e16141;
+}
+.container-7{
+    width: 1440px;
+    height: 491px;
+    background-color: royalblue;
+}
